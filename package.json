@@ -1,0 +1,30 @@
+{
+  "name": "excel_project",
+  "version": "1.0.0",
+  "description": "Pure JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danila-cmd/excel-project.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Danila Feduleev <dvfeduleev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danila-cmd/excel-project/issues"
+  },
+  "homepage": "https://github.com/Danila-cmd/excel-project#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
